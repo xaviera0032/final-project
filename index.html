@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <title>Bootstrap Template
+    </title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <!--Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Crimson+Text:400i" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="nav.css">
+
+</head>
+
+<script>
+    $(document).ready(function() {
+        $('body').scrollspy({
+            target: ".navbar",
+            offset: 50
+        });
+
+        $("#custom-bootstrap-menu a").on('click', function(event) {
+            if (this.hash !== "") {
+                event.preventDefault();
+
+                var hash = this.hash;
+
+                $('html, body').animate({
+                    scrollTop: $(hash).offset().top
+                }, 800, function() {
+
+                    window.location.hash = hash;
+                });
+            }
+        });
+    });
+</script>
+
+<body>
+
+    <!--<img src="photos/road-2.jpg"-->
+
+    <div id="custom-bootstrap-menu" class="navbar navbar-default " role="navigation">
+        <div class="container-fluid">
+            <div class="navbar-header"><a class="navbar-brand" href="#">Car Safety</a>
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-menubuilder"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse navbar-menubuilder">
+                <ul class="nav navbar-nav navbar-left">
+
+                    <li><a href="#home">Home</a></li>
+
+                    <li><a href="#reason">The Reason</a></li>
+
+                    <li><a href="#what-to-do">What To Do</a></li>
+
+                    <li><a href="#not-to-do">What Not To Do</a></li>
+
+                    <li><a href="#ready">Are You Ready</a></li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="jumbotron">
+            <h1>Car Safety</h1>
+        </div>
+
+        <div id="home">
+            <h2>Welcome</h2><br>
+            <p>The moment to get your hands on the wheel is within reach. You are excited to be able to drive where ever you please with little to know restrictions. But hold on just one minute. It is understandable that you want to get your driver's license,
+                get an amazingly fast car, and drive off. But there are some things you need to know before you get behind the wheel. Safety is an important thing to learn before hitting the streets. So sit back (or stand its up to you) and enjoy.
+            </p>
+        </div>
+
+        <div id="reason">
+            <h2>Reasoning</h2><br>
+            <p>Before we talk about major topics, we need to understand why we need safety when behind the wheel. You might think are going to become one of the best drivers who will never get in an accident and knows all the rules. And you might. But realize
+                this. In 2016, there has been a huge amount of accidents. Around 40,000. Most of these are experienced drivers and even they can get hurt. It's better to be safe and to show you and maybe you might learn something you previously might
+                not have known.</p>
+        </div>
+
+        <div id="what-to-do">
+            <h2>What-To-Do</h2><br>
+            <p>The summer is coming up pretty soon and there is no better time to drive then in the summer. I can give you a set of rules to follow while in a car.</p>
+
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-md-3">
+                    <p>Strap yourself - It is important for you to put your seatbelt on even before you start the engine. It’s not just to avoid getting a ticket but it's the smart thing to do. In case you are in a collision, it helps keep you from hitting your head on the steering wheel or even flying of the window (which has happened countless amount of time).</p><br>
+                </div>
+
+                <div class="col-xs-12 col-sm-6 col-md-3">
+                    <p>Slow down - Speed sometimes gives you this adrenaline. You want to test the limits of your car. You want to feel like a badass. Problem is, when you hit a bump or you start to spin out of control, it won’t be fun being in the hospital.
+                        Slowing down might feel boring but it helps keep drivers from getting injured.</p><br>
+                </div>
+
+
+                <div class="col-xs-12 col-sm-6 col-md-3">
+                    <p>Don’t drink and drive - This is extremely dangerous not just for you but for others. I am not talking about not drinking water or soda. I’m talking about alcohol. When you drink, your vision become distorted making it so much harder
+                        to drive. You might think it’s nothing but thats what alot of people say and it ends up getting their car in an auto repair shop fixing a disaster they made. If you plan on drinking, have a responsible not drunk friend to drive.</p><br>
+                </div>
+
+                <div class="col-xs-12 col-sm-6 col-md-3">
+                    <p>Don’t just drive off - Gas is not the only thing that a car needs to survive. Tire pressure, battery, oil, good breaks, and so many other thing needed for the longevity of your car. Make sure you properly check these things out. You don't want to end up in middle of nowhere.</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="not-to-do">
+            <h2>What-Not-To-Do</h2><br>
+            <p>The Consequences: You think about ignoring every piece of advice I give you. Ok. How about showing you what happens if you don’t do them.<br>
+
+                <li>No Seatbelt: <a href="https://www.youtube.com/watch?v=d7iYZPp2zYY">www.youtube.com/watch?v=d7iYZPp2zYY</a></li><br>
+
+
+                <li>Speeding: <a href="https://www.youtube.com/watch?v=R7dG9UlzeFM">www.youtube.com/watch?v=R7dG9UlzeFM</a></li><br>
+
+
+                <li>Drink And Drive: <a href="(Warning, although it is a reenactment, it is still pretty graphic) https://www.youtube.com/watch?v=Q6OqMgqtlo4">www.youtube.com/watch?v=Q6OqMgqtlo4</a></li><br>
+
+                </a>
+                <li>Just Drive: <a href="https://www.youtube.com/watch?v=n-tNBt8nGOk">www.youtube.com/watch?v=n-tNBt8nGOk</a></li><br>
+
+            </p>
+        </div>
+
+        <div id="ready">
+            <h2>You Ready?</h2><br>
+            <p>The whole purpose of this website was not to scare you but rather to inform and persuade you to do the right things. Remember, cars are fun to drive and they get you to where you need/want to go but there is alot to be cautious about. Have fun driving and drive safely.</p>
+        </div>
+
+    </div>
+</body>
+
+</html>

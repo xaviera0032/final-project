@@ -1,0 +1,50 @@
+.jumbotron h1 {
+    background-color: rgb(44, 108, 255);
+    color: rgba(255, 255, 255, 1);
+    font-size: 80px;
+    text-align: center;
+    font-family: 'Crimson Text', serif;
+}
+
+h2 {
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Crimson Text', serif;
+}
+
+p {
+    font-family: 'Crimson Text', serif;
+    font-size: 20px;
+}
+
+#custom-bootstrap-menu.navbar-default .navbar-nav {
+    text-align: center;
+    font-family: 'Crimson Text', serif;
+}
+
+#custom-bootstrap-menu.navbar-default .navbar-brand {
+    font-family: 'Crimson Text', serif;
+    font-size: 25px;
+}
+
+.navbar-brand {
+    font-size: 15px;
+    /*text-align: center;*/
+}
+
+.container>div {
+    background-color: rgb(44, 108, 255);
+    color: rgba(255, 255, 255, 1);
+    margin: 10px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+li {
+    font-family: 'Crimson Text', serif;
+    font-size: 20px;
+}
+
+a:link {
+    color: white;
+}
